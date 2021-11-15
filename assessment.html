@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>html assessment</title>
+  </head>
+  <body>
+
+<!-- text practice -->
+
+    <h2>TEXT</h2>
+    <p><b>Lorem</b> ipsum dolor sit amet, consectetur
+      adipisicing elit, sed do eiusmod tempor incididunt
+      ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris
+      nisi ut aliquip ex ea commodo consequat. Duis aute
+      irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint
+      occaecat cupidatat non proident, sunt in culpa qui officia
+      deserunt mollit anim id est laborum.</p>
+
+    <blockquote><i><b>Integer</b> auctor est ac fringilla euismod. Donec
+      laoreet urna vel diam blandit veneatis. Nam fermentum turpis a Duis aute
+      irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Quisque lectus odio, tincidunt
+      sit amet enim ut, egestas aliquet leo. Phasellus volutpat aliquam risus,
+      id tincidunt diam gravida non. Pellentesque vel lectus eget velit
+      consectetur ornare. Aliquam erat volutpat.</i></blockquote>
+
+
+    <p><b>Vestibulum</b> elit nisi, posure ut hendrerit a, molestie eu leo.
+          Donec sit amet ullamcorper. Irure dolor in reprehenderit in voluptate
+          velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+          occaecat cupidatat non proident. Praesent mauris dolor, luctus
+          vehicula odio nec, lacinia aliquam dolor. Etiam posuere quis mi
+          quis cursus. Fusce bibendum euismod urna sit amet tempus. Mauris
+          pulvinar sem ut dolor pretium vulputate. Vivamus auctor in velit
+          ac suscipit.</p>
+
+<!-- table practice -->
+
+    <h2>TABLE</h2>
+    <table>
+      <style>
+        table {border: 3px solid black;}
+        th, td {border: .5px solid black;}
+        th, td {padding: 5px;}
+      </style>
+      <tr align="center" bgcolor="C7C7C7">
+        <th rowspan="2">Team Name</th>
+        <th colspan="2">First Half</th>
+        <th colspan="2">Second Half</th>
+      </tr>
+      <tr align="center">
+        <th>Q1</th>
+        <th>Q2</th>
+        <th>Q3</th>
+        <th>Q4</th>
+      </tr>
+      <tr align="center">
+        <td>Chudley Cannons</td>
+        <td>10</td>
+        <td>70</td>
+        <td>115</td>
+        <td>155</td>
+      </tr>
+      <tr align="center">
+        <td>Holyhead Harpies</td>
+        <td>40</td>
+        <td>50</td>
+        <td>80</td>
+        <td>175</td>
+      </tr>
+    </table>
+
+<!-- lists practice -->
+
+    <h2>LIST</h2>
+    <ul>
+        <li><img src="https://www.hp-lexicon.org/wp-content/uploads/2018/07/chudley-cannons-logo-1-200x0-c-default.png?ezimgfmt=ng:webp/ngcb22" width="50" height="60"><br>
+            <a href="https://www.hp-lexicon.org/thing/chudley-cannons/" target="_blank"><b>Chudley Cannons</b></a>
+          <ul>
+            <li>Chaser
+              <ol>
+                <li>Dragomir Gorgovitch</li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+        <li><img src="https://www.hp-lexicon.org/wp-content/uploads/2018/07/holyhead-harpies-logo-1.jpg?ezimgfmt=ng%3Awebp%2Fngcb22" width="55" height="55" ><br>
+            <a href="https://www.hp-lexicon.org/thing/holyhead-harpies/" target="_blank"><b>Holyhead Harpies</b></a>
+          <ul>
+            <li>Chaser
+              <ol>
+                <li>Ginny Weasley</li>
+                <li>Wilda Griffiths</li>
+              </ol>
+            </li>
+          </ul>
+        </li>
+    </ul>
+
+<!-- forms practice -->
+
+    <h2>FORM</h2>
+
+    <!-- text input boxes -->
+    <form action="congrats.html" target="_blank">
+      <label for="firstname">First Name:</label>
+      <input type="text" name="firstName">
+      <label for="lastname">Last Name:</label>
+      <input type="text" name="firstName"><br><br>
+
+    <!-- drop down list -->
+      <label for="favsport">Favorite Sport:</label><br>
+      <select name="sports">
+        <option value="quidditch">Quidditch</option>
+        <option value="zombiehunting">Zombie Hunting</option>
+        <option value="cheeserolling">Cheese Rolling</option>
+        <option value="toewrestling">Toe Wrestling</option>
+      </select><br><br>
+
+      <!-- check boxes -->
+      <label>I have: </label>
+      <input type="checkbox" name="played">
+      <label for="played">Played</label>
+      <input type="checkbox" name="attended">
+      <label for="attended">Attended</label>
+      <input type="checkbox" name="coached">
+      <label for="coached">Coached</label>
+      <input type="checkbox" name="beton">
+      <label for="beton">Bet On</label><br>
+      <label>this sport.</label><br><br>
+
+      <!-- radio buttons -->
+      <label >For this sport I prefer:</label>
+      <input type="radio" name="level">
+      <label for="amateur">Amateur</label>
+      <input type="radio" name="level">
+      <label for="college">College</label>
+      <input type="radio" name="level">
+      <label for="professional">Professional</label><br><br>
+      <input type="submit" name="Submit">
+    </form>
+
+  </body>
+</html>
